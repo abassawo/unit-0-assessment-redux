@@ -5,12 +5,13 @@ public class Singer {
     String name;
     String location;
 
-    public Singer(String name, String location){
+    public Singer(String name, String location) {
         this.name = name;
         this.location = location;
     }
 
     public String getName() {
+
         return name;
     }
 
@@ -19,6 +20,7 @@ public class Singer {
     }
 
     public String getLocation() {
+
         return location;
     }
 
